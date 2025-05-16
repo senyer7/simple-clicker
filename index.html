@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кликер игра | senyer7.ru</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p id="money" class="money-text">₽0</p>
+
+    <button id="main-clicker" class="clicker">
+      <img
+        id="logo-clicker"
+        src="img/money_logo.png"
+        alt="Клик"
+        draggable="false"
+      />
+    </button>
+
+    <div class="shop">
+      <button id="b1" class="button shop-btn" disabled>
+        <b></b>Деньги за клик ×2
+      </button>
+      <button id="b2" class="button shop-btn" disabled>
+        <b></b>+5 каждая секунда
+      </button>
+      <button id="b3" class="button shop-btn" disabled>
+        <b></b>Авто доход ×2
+      </button>
+    </div>
+
+    <footer class="footer">Создано на ❤️ senyer7.ru</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
